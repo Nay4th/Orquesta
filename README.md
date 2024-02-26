@@ -5,6 +5,4 @@
 ### Diagrama
 __Clases:__
 
-<div>
-<p style = 'image-align:center;'>
 ![Diagrama de clases](out/clases/clases.png)
