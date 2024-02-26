@@ -1,0 +1,21 @@
+@startuml
+
+Instrumento <|-- Guitarra
+Instrumento <|-- Saxo 
+Instrumento <|-- Tiple
+
+Musico *-- Instrumento
+Banda *-- Musico
+
+Instrumento : afinar()
+Instrumento : tocar()
+Musico : instrumento
+Musico : afinar_Instrumento()
+Musico : tocar_Instrumento()
+Banda : musicos
+Banda : afinar()
+Banda : tocar()
+Banda : armar_banda()
+
+
+@enduml
